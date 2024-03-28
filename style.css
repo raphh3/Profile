@@ -6,6 +6,33 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/* For all IOS screens */
+@media only screen and (min-width: 360px) and (max-height: 926px) and (-webkit-device-pixel-ratio: 2) {
+  header,
+  main,
+  footer {
+    padding: 10px;
+  }
+}
+
+/* For all Samsung screens */
+@media only screen and (min-width: 360px) and (max-height: 915px) and (-webkit-device-pixel-ratio: 2) {
+  header,
+  main,
+  footer {
+    padding: 10px;
+  }
+}
+
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-height: 1280px) and (-webkit-device-pixel-ratio: 2) {
+  header,
+  main,
+  footer {
+    padding: 10px;
+  }
+}
+
 .profile {
   color: white;
   display: flex;
